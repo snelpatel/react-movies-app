@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(<div></div>,document.getElementById('root')
+import Home from './screens/home/Home';
+ReactDOM.render(<Home />, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
